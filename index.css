@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+}
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generator__title {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.generator__button {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #cacaca;
+    background-color: white;
+    cursor: pointer;
+    transition: 300ms all ease-in-out;
+}
+
+.generator__button:hover {
+    background-color: #cacaca;
+    color: white;
+}
+
+.generator__result {
+    margin-top: 30px;
+}
